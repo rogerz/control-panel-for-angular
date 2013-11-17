@@ -1,0 +1,19 @@
+<div id="side-bar" ng-class="{inactive: inactive}">
+  <ul id="sb-hot-zone">
+    <li>
+      <a id="sb-toggle" ng-click="toggle()">
+        <i class="glyphicon glyphicon-cog"></i>
+      </a>
+    </li>
+  </ul>
+  <ul id="sb-tabs">
+    <li ng-repeat="panel in panels">
+      <a ng-click="activate($index)">
+        <ni class="glyphicon {{panel.iconClass || 'glyphicon-cog'}}"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+<div id="control-panel" ng-hide="inactive">
+  <div angular-bind-template="template"></div>
+</div>

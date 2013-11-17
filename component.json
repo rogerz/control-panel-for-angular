@@ -1,0 +1,23 @@
+{
+  "name": "control-panel-for-angular",
+  "description": "centralized control panel manager for modules",
+  "version": "0.0.1",
+  "keywords": ["angular", "settings", "ui", "toolbar", "control-panel"],
+  "dependencies": {
+    "brighthas/bootstrap": "*"
+  },
+  "development": {},
+  "scripts": [
+    "index.js",
+    "config.js",
+    "services.js",
+    "directives.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "license": "MIT"
+}

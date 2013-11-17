@@ -1,3 +1,3 @@
 exports = module.exports = {
-  name: 'controlPanel'
+  name: 'rogerz/controlPanel'
 };

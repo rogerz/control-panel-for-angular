@@ -1,6 +1,4 @@
-'use strict';
-
-angular.module(require('./config').name)
+require('./module')
   .directive('controlPanel', function () {
 
     function controller($scope, ControlPanel) {

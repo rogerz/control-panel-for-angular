@@ -1,6 +1,4 @@
-'use strict';
-
-angular.module(require('./config').name)
+require('./module')
   .service('ControlPanel', function ControlPanel() {
     var panels = [],
     activeOne;

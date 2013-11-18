@@ -10,7 +10,7 @@
   "development": {},
   "scripts": [
     "index.js",
-    "config.js",
+    "module.js",
     "services.js",
     "directives.js"
   ],

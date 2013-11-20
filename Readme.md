@@ -7,7 +7,13 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install rogerz/settings-for-angular
+    $ component install rogerz/control-panel-for-angular
+
+## Test
+
+	$ bower install
+
+  Visit `test/index.html`
 
 ## API
 

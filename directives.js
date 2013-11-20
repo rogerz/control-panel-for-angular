@@ -1,11 +1,11 @@
 require('./module')
   .directive('controlPanel', function () {
 
-    function controller($scope, ControlPanel) {
-      $scope.panels = ControlPanel.all();
+    function controller($scope, controlPanel) {
+      $scope.panels = controlPanel.all();
 
       $scope.activate = function (index) {
-        var activeOne = ControlPanel.activate(index);
+        var activeOne = controlPanel.activate(index);
 
         $scope.template = activeOne.template;
         $scope.ctx = activeOne.ctx;
@@ -20,7 +20,7 @@ require('./module')
 
     return {
       restrict: 'E',
-      controller: ['$scope', 'ControlPanel', controller],
+      controller: ['$scope', 'controlPanel', controller],
       template: require('./template.html')
     };
   })

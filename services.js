@@ -1,5 +1,5 @@
 require('./module')
-  .service('ControlPanel', function ControlPanel() {
+  .service('controlPanel', function () {
     var panels = [],
     activeOne;
 

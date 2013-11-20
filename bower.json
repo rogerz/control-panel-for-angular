@@ -1,0 +1,29 @@
+{
+  "name": "control-panel-for-angular",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rogerz/control-panel-for-angular",
+  "authors": [
+    "Rogerz Zhang <rogerz.zhang@gmail.com>"
+  ],
+  "description": "centralized control panel for components wrapped as angular module",
+  "keywords": [
+    "angular",
+    "ui",
+    "control-panel"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.2",
+    "angular": "~1.2.1"
+  },
+  "devDependencies": {
+  }
+}

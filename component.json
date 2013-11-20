@@ -5,9 +5,12 @@
   "version": "0.0.1",
   "keywords": ["angular", "settings", "ui", "toolbar", "control-panel"],
   "dependencies": {
-    "brighthas/bootstrap": "*"
   },
   "development": {},
+  "bower": {
+    "bootstrap": "*",
+    "angular": "*"
+  },
   "scripts": [
     "index.js",
     "module.js",

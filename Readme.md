@@ -1,7 +1,7 @@
 
-# settings-for-angular
+# control-panel-for-angular
 
-  manage settings of different module in one place
+  Manage settings of different module in one place.
 
 ## Installation
 
@@ -9,15 +9,9 @@
 
     $ component install rogerz/control-panel-for-angular
 
-## Test
-
-	$ bower install
-
-  Visit `test/index.html`
+  Note: angular and bootstrap need to be included manually, see example.
 
 ## API
-
-
 
 ## License
 

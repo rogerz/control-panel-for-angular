@@ -5,8 +5,6 @@
   "version": "0.0.1",
   "keywords": ["angular", "settings", "ui", "toolbar", "control-panel"],
   "dependencies": {
-    "rogerz/bootstrap": "*",
-    "rogerz/angular.js": "*"
   },
   "development": {},
   "scripts": [

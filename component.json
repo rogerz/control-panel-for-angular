@@ -6,7 +6,7 @@
   "keywords": ["angular", "settings", "ui", "toolbar", "control-panel"],
   "dependencies": {
     "rogerz/bootstrap": "*",
-    "leostera/angular.js": "*"
+    "rogerz/angular.js": "*"
   },
   "development": {},
   "scripts": [

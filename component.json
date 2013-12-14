@@ -3,9 +3,14 @@
   "repo": "rogerz/control-panel-for-angular",
   "description": "centralized control panel manager for modules",
   "version": "0.0.1",
-  "keywords": ["angular", "settings", "ui", "toolbar", "control-panel"],
-  "dependencies": {
-  },
+  "keywords": [
+    "angular",
+    "settings",
+    "ui",
+    "toolbar",
+    "control-panel"
+  ],
+  "dependencies": {},
   "development": {},
   "scripts": [
     "index.js",
